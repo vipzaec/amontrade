@@ -1,5 +1,6 @@
 import React from "react";
 import "./section1.scss"; // Import the SCSS file
+import MyIcon from "../assets/img/hero1";
 
 const Section1: React.FC = () => {
   return (
@@ -26,7 +27,7 @@ const Section1: React.FC = () => {
 
         {/* Right Side Image */}
         <div className="right-image">
-          <img src="/src/assets/img/hero1.svg" alt="Marketing Image" />
+          <MyIcon />
         </div>
       </div>
     </div>
