@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss"; // Import the SCSS file
-import reactLogo from "../../src/assets/react.svg";
+import logo from "../../src/assets/img/logo.png";
 
 interface HeaderProps {
   section1Ref: React.RefObject<HTMLDivElement | null>;
@@ -17,7 +17,6 @@ const Header: React.FC<HeaderProps> = ({
   section2Ref: React.RefObject<HTMLDivElement | null>;
   section3Ref: React.RefObject<HTMLDivElement | null>;
 }) => {
-  console.log(reactLogo);
   const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
     ref?.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -27,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({
       <div className="header-container">
         {/* Left Side: Buttons for scrolling */}
         <div className="logo-nav-container">
-          <img src={reactLogo} alt="React logo" className="logo" />
+          <img src={logo} alt="React logo" className="logo" />
 
           <nav className="nav">
             <button

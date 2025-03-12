@@ -4,6 +4,11 @@ import Header from "./components/header";
 import Section2 from "./components/section2/section2";
 import Section3 from "./components/section3/section3";
 import Section4 from "./components/section4/section4";
+import Section5 from "./components/section5/section5";
+import Section6 from "./components/section6/section6";
+import Section7 from "./components/section7/section7";
+import Section8 from "./components/section8/section8";
+import Footer from "./components/footer/footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,25 +38,14 @@ function App() {
         <Section2 />
         <Section3 />
         <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <Section8 />
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white p-4 text-center space-y-4">
-        <div className="card">
-          <button
-            onClick={() => setCount((count) => count + 1)}
-            className="bg-blue-500 px-4 py-2 rounded hover:bg-blue-600"
-          >
-            count is {count}
-          </button>
-          <p className="text-sm">
-            Edit <code>src/App.tsx</code> and save to test HMR
-          </p>
-        </div>
-        <p className="read-the-docs text-gray-400">
-          Click on the Vite and React logos to learn more
-        </p>
-      </footer>
+      <Footer />
     </>
   );
 }
