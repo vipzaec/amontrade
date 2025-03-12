@@ -26,7 +26,7 @@ const Section1: React.FC = () => {
 
         {/* Right Side Image */}
         <div className="right-image">
-          <img src="./src/assets/img/hero1.svg" alt="Marketing Image" />
+          <img src="/src/assets/img/hero1.svg" alt="Marketing Image" />
         </div>
       </div>
     </div>
