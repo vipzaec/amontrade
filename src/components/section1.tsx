@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section1.scss"; // Import the SCSS file
+import "./section1.scss"; // Import the SCSS file
 
 const Section1: React.FC = () => {
   return (
