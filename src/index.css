@@ -1,16 +1,33 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  --si-body-color: rgba(255, 255, 255, 0.7);
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  --si-font-sans-serif: "Montserrat", sans-serif;
+  --si-body-font-family: var(--si-font-sans-serif);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* You can also apply to specific elements */
+h1,
+h2,
+h3,
+p {
+  font-family: var(--si-body-font-family);
 }
 
 a {
@@ -25,7 +42,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  font-family: var(--si-body-font-family);
+
   min-width: 320px;
   min-height: 100vh;
 }

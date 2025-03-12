@@ -1,0 +1,81 @@
+.section3 {
+  margin-bottom: 8rem;
+  width: 100%;
+  max-width: 100% !important;
+  .container {
+    max-width: 100%;
+    padding-bottom: 0;
+  }
+
+  .swiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .swiper-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      width: 100%;
+      flex-wrap: nowrap; // Prevent wrapping of items to a new line
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #ddd; // Border between items
+      padding: 0.5rem;
+      width: 100%;
+      max-width: 280px; // Max width of each item
+      box-sizing: border-box;
+
+      .text-center {
+        text-align: center;
+
+        .swiper-icon {
+          font-size: 3rem;
+          color: #007bff;
+          margin-bottom: 0.5rem;
+        }
+
+        h4 {
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: #333;
+        }
+      }
+    }
+
+    .swiper-pagination {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background-color: #bbb;
+        border-radius: 50%;
+        &.swiper-pagination-bullet-active {
+          background-color: #007bff;
+        }
+      }
+    }
+  }
+
+  // Swiper breakpoints handling
+  @media (min-width: 500px) {
+    .swiper-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 991px) {
+    .swiper-wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

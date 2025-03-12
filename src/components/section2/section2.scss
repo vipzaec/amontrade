@@ -1,0 +1,89 @@
+.section2 {
+  .container {
+    width: 100%;
+    max-width: 100%; // Ensure it doesn't get constrained by any max-width
+
+    padding-bottom: 0;
+  }
+
+  #mission {
+    .content-wrapper {
+      margin-top: 8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      gap: 2rem;
+
+      // Flexbox for large screens (row layout)
+      @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: center;
+
+        .image-container {
+          order: 1; // Image comes second in the row layout
+        }
+      }
+
+      // Image container styling
+      .image-container {
+        max-width: 660px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .illustration {
+          width: 100%;
+          max-width: 500px; // Maximum size of the image
+          border-radius: 0.5rem; // Rounded corners
+          height: auto;
+        }
+      }
+
+      // Content styling
+      .content {
+        max-width: 660px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding: 1rem;
+        padding-left: 2rem;
+        width: 100%;
+
+        // Title styling
+        .title {
+          font-size: 2rem; // Equivalent to text-4xl
+          font-weight: 800; // font-extrabold
+          margin-bottom: 1rem; // Equivalent to mb-3
+        }
+
+        // Description text
+        .description {
+          font-size: 1.125rem; // Equivalent to text-lg
+          margin-bottom: 1rem; // Equivalent to mb-3
+        }
+
+        // List styling
+        .list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          .list-item {
+            font-size: 1.125rem; // Equivalent to text-lg
+            margin-bottom: 0.5rem; // space-y-2
+
+            &::before {
+              content: "✔"; // Custom checkmark
+              margin-right: 8px;
+              color: green;
+            }
+          }
+        }
+      }
+    }
+  }
+}
