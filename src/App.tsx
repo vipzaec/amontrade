@@ -1,4 +1,3 @@
-import { useRef, useState } from "react";
 import Section1 from "./components/section1";
 import Header from "./components/header";
 import Section2 from "./components/section2/section2";
@@ -11,12 +10,7 @@ import Section8 from "./components/section8/section8";
 import Footer from "./components/footer/footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   // Create refs for scrolling to sections
-  const section1Ref = useRef<HTMLDivElement>(null);
-  const section2Ref = useRef<HTMLDivElement>(null);
-  const section3Ref = useRef<HTMLDivElement>(null);
 
   // const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
   //   ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -25,11 +19,7 @@ function App() {
   return (
     <>
       {/* Header */}
-      <Header
-        section1Ref={section1Ref}
-        section2Ref={section2Ref}
-        section3Ref={section3Ref}
-      />
+      <Header />
 
       {/* Main Content */}
       <main className="block">

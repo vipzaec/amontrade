@@ -9,7 +9,9 @@ const Section7: React.FC = () => {
       className="about-us-container flex justify-center flex-col items-center "
     >
       <div className="max-w-[1320px] w-full">
-        <h2 className="headerText text-left sm:text-center">About Us</h2>
+        <h2 className="headerText text-left sm:text-center ml-[5rem]!">
+          About Us
+        </h2>
       </div>
       <div className="about-us-row">
         <div className="about-us-image">

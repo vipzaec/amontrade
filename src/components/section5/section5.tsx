@@ -10,10 +10,9 @@ const Section5: React.FC = () => {
         <div className="team-info text-left">
           <h2 className="headerTextSecond">Our team</h2>
           <p className="intro">
-            Our team of digital marketing specialists is the backbone of SBC
-            Digital. We bring a variety of skills and experiences to the table.
-            Count on our team to be your trusted partners in achieving digital
-            success.
+            Our digital marketing experts are dedicated to helping you succeed.
+            With a diverse skill set, we ensure seamless execution and impactful
+            outcomes.
           </p>
         </div>
         <div className="team-details">
@@ -23,10 +22,10 @@ const Section5: React.FC = () => {
                 <i className="fa-solid fa-microchip team-icon"></i>
               </div>
               <div className="icon-details">
-                <h3 className="headerText">Advanced Tech</h3>
+                <h3 className="headerText5">Advanced Tech</h3>
                 <p className="card-intro">
-                  Cutting-edge tools, skilled developers, and data security give
-                  a competitive edge.
+                  Harness the latest tools and secure data systems for a
+                  competitive edge in the market.
                 </p>
               </div>
             </div>
@@ -37,10 +36,10 @@ const Section5: React.FC = () => {
                 <i className="fa-solid fa-rectangle-ad team-icon"></i>
               </div>
               <div className="icon-details">
-                <h3 className="headerText">Media Buying Mastery</h3>
+                <h3 className="headerText5">Media Buying Mastery</h3>
                 <p className="card-intro">
-                  Data-driven strategies secure prime ad spaces, driving
-                  substantial traffic.
+                  Our data-driven strategies secure prime advertising spaces,
+                  boosting traffic and performance.
                 </p>
               </div>
             </div>
@@ -51,10 +50,10 @@ const Section5: React.FC = () => {
                 <i className="fa-solid fa-lightbulb team-icon"></i>
               </div>
               <div className="icon-details">
-                <h3 className="headerText">Creative Prowess</h3>
+                <h3 className="headerText5">Creative Prowess</h3>
                 <p className="card-intro">
-                  Talented designers create captivating campaigns, fostering
-                  brand loyalty.
+                  Our talented team creates visually stunning campaigns that
+                  engage and build brand loyalty.
                 </p>
               </div>
             </div>
@@ -65,10 +64,10 @@ const Section5: React.FC = () => {
                 <FontAwesomeIcon icon={faPeopleGroup} className="team-icon" />
               </div>
               <div className="icon-details">
-                <h3 className="headerText">Collaborative Synergy</h3>
+                <h3 className="headerText5">Collaborative Synergy</h3>
                 <p className="card-intro">
-                  Teams work together for seamless campaigns, delivering
-                  unparalleled results.
+                  Our team works hand-in-hand to ensure smooth collaboration and
+                  exceptional campaign results.
                 </p>
               </div>
             </div>

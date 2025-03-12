@@ -15,19 +15,16 @@ const Section2: React.FC = () => {
             <div className="content">
               <h2 className="title">Our mission</h2>
               <p className="description">
-                Our mission is simple but powerful: to deliver excellence in
-                every aspect of our business. We constantly push boundaries,
-                staying ahead of industry trends and taking new approaches to
-                ensure our partners stay one step ahead. Join us on this unique
-                journey as we redefine what it means to succeed in digital
-                marketing.
+                We’re driven by a mission to provide excellence across every
+                aspect of our business, staying ahead of industry trends and
+                delivering tailored solutions that ensure our partners stay
+                competitive. Join us in shaping the future of energy and
+                technology.
               </p>
               <ul className="list">
                 <li className="list-item">Striving for Perfection</li>
                 <li className="list-item">Pioneering Innovation</li>
-                <li className="list-item">
-                  Redefining Success in Digital Marketing
-                </li>
+                <li className="list-item">Redefining Success</li>
               </ul>
             </div>
           </div>

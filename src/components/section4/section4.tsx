@@ -19,10 +19,9 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Tech Development</h2>
               <p className="text-muted">
-                Our company has its own Tech Solution, which allows you to
-                manage a huge layer of information in 1 click, which has no
-                analogues on the market and is created using advanced
-                technologies.
+                We offer unique tech solutions that allow seamless management of
+                complex data in one click, using advanced technologies that set
+                us apart from competitors.
               </p>
             </div>
           </div>
@@ -35,9 +34,8 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Media buying</h2>
               <p className="text-muted">
-                Our team consists of more than 80 experienced media buyers who
-                daily acquire leads in social and native networks, operating
-                with large budgets.
+                With a team of 80+ skilled media buyers, we manage large budgets
+                to acquire quality leads on social and native networks daily.
               </p>
             </div>
           </div>
@@ -50,17 +48,10 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Creative agency</h2>
               <p className="text-muted">
-                A creative agency consisting of Media Hunter, a team of talented
-                Motion Design and Graphic Design, and more than 100 of its own
-                UGC-creators from around the world.
-                <br />
-                <br />
-                Our Agency does more than 3,000 unique creatives per day
-                creating content for our happy clients.
-                <br />
-                <br />
-                Our team has its own Compliance service that ensures compliance
-                with all strict advertising requirements from our partners.
+                Our agency produces over 3,000 unique creatives per day,
+                combining motion design, graphic design, and a global network of
+                UGC creators. We help brands stand out with tailored,
+                high-quality content.
               </p>
             </div>
           </div>
@@ -71,10 +62,9 @@ const Section4: React.FC = () => {
         <h2 className="headerTextSecond">Our Services</h2>
         <div className="intro">
           <p className="text-muted">
-            With our comprehensive suite of services, we empower businesses to
-            thrive in today's dynamic and competitive landscape. Let us be your
-            trusted partner in achieving unprecedented success in the digital
-            realm.
+            We provide a comprehensive suite of services designed to help
+            businesses thrive in today’s competitive digital world. Trust us to
+            be your partner in achieving success across various sectors.
           </p>
         </div>
 
@@ -87,10 +77,9 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Search Traffic Services</h2>
               <p className="text-muted">
-                Our search traffic services are designed to increase website
-                visibility, attract quality leads, and drive conversions. By
-                focusing on search engine optimization, we ensure that our
-                partners' online presence reaches its full potential.
+                We optimize your online presence through advanced search engine
+                strategies, ensuring maximum visibility, attracting quality
+                leads, and driving conversions.
               </p>
             </div>
           </div>
@@ -103,10 +92,8 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Digital Marketing</h2>
               <p className="text-muted">
-                From social media marketing and product development to email
-                campaigns and pay-per-click advertising, our comprehensive
-                digital marketing services cover promoting brands across the
-                digital realm.
+                From social media to PPC campaigns, our team offers a full range
+                of services to promote your brand across all digital platforms.
               </p>
             </div>
           </div>
@@ -119,10 +106,8 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Global Approach</h2>
               <p className="text-muted">
-                Reach out and win new markets with our global marketing
-                solutions. We have the tools and expertise to navigate the
-                challenges of international marketing, helping to connect with a
-                global audience.
+                Expand into new markets globally with tailored marketing
+                solutions that connect you with an international audience.
               </p>
             </div>
           </div>
@@ -135,10 +120,9 @@ const Section4: React.FC = () => {
               </div>
               <h2 className="h4">Data Analytics</h2>
               <p className="text-muted">
-                Our data analytics services provide valuable insights into
-                customer behavior, market trends, and business metrics. We use
-                this data to optimize marketing strategy and deliver the best
-                results for businesses.
+                Leverage data-driven insights to fine-tune strategies,
+                understand customer behaviors, and make informed decisions for
+                superior results.
               </p>
             </div>
           </div>

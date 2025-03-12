@@ -2,23 +2,10 @@ import React from "react";
 import "./Header.scss"; // Import the SCSS file
 import logo from "../../src/assets/img/logo.png";
 
-interface HeaderProps {
-  section1Ref: React.RefObject<HTMLDivElement | null>;
-  section2Ref: React.RefObject<HTMLDivElement | null>;
-  section3Ref: React.RefObject<HTMLDivElement | null>;
-}
-
-const Header: React.FC<HeaderProps> = ({
-  section1Ref,
-  section2Ref,
-  section3Ref,
-}: {
-  section1Ref: React.RefObject<HTMLDivElement | null>;
-  section2Ref: React.RefObject<HTMLDivElement | null>;
-  section3Ref: React.RefObject<HTMLDivElement | null>;
-}) => {
-  const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
-    ref?.current?.scrollIntoView({ behavior: "smooth" });
+const Header: React.FC = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -30,28 +17,55 @@ const Header: React.FC<HeaderProps> = ({
 
           <nav className="nav">
             <button
-              onClick={() => scrollToSection(section1Ref)}
+              onClick={() => scrollToSection("mission")}
               className="nav-button"
             >
-              Section 1
+              Mission
             </button>
             <button
-              onClick={() => scrollToSection(section2Ref)}
+              onClick={() => scrollToSection("marketing-fields")}
               className="nav-button"
             >
-              Section 2
+              Marketing Fields
             </button>
             <button
-              onClick={() => scrollToSection(section3Ref)}
+              onClick={() => scrollToSection("services")}
               className="nav-button"
             >
-              Section 3
+              Services
+            </button>
+            <button
+              onClick={() => scrollToSection("team")}
+              className="nav-button"
+            >
+              Team
+            </button>
+            <button
+              onClick={() => scrollToSection("partners")}
+              className="nav-button"
+            >
+              Partners
+            </button>
+            <button
+              onClick={() => scrollToSection("about-us")}
+              className="nav-button"
+            >
+              About Us
+            </button>
+            <button
+              onClick={() => scrollToSection("contact-us")}
+              className="nav-button"
+            >
+              Contact Us
             </button>
           </nav>
         </div>
 
         {/* Right Side: Contact Me button */}
-        <a href="mailto:example@gmail.com" className="contact-button">
+        <a
+          href="mailto:example@gmail.com"
+          className="contact-button text-nowrap"
+        >
           Get a Quote
         </a>
       </div>
