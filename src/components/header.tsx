@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.scss"; // Import the SCSS file
+import "./seader.scss"; // Import the SCSS file
 import logo from "../../src/assets/img/logo.png";
 
 const Header: React.FC = () => {
