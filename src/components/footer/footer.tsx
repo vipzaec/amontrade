@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo.png"; // Import the logo
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer">
+    <footer className="footer flex justify-center items-center">
       <div className="container max-w-[1320px] p-[60px]!">
         <div className="row flex-row flex mb-[5rem]!">
           {/* Left Column */}
