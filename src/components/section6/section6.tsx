@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section6.scss";
+import "./section6.scss";
 
 import partner1 from "../../assets/img/partn1.png";
 import partner2 from "../../assets/img/partn2.png";
