@@ -19,27 +19,28 @@ const Section7: React.FC = () => {
         </div>
         <div className="about-us-content">
           <p className="intro">
-            <b>SBC Digital</b> is a DBA (Doing Business As) of SBBC Health LLC.
-            We specialize in digital marketing, performance analytics, and media
-            buying. Our mission is to provide innovative solutions to help
-            businesses grow online and succeed in the digital space. Founded to
-            meet the unique needs of companies across the U.S., SBC Digital
-            offers comprehensive services tailored to drive brand growth,
-            customer engagement, and measurable results.
+            <b>AMON TRADE LLC</b> is a trusted partner specializing in
+            delivering comprehensive solutions for businesses worldwide. Our
+            focus is on providing innovative strategies that drive growth,
+            enhance performance, and create measurable results. With a deep
+            understanding of the global market, we are dedicated to helping our
+            clients achieve their goals through tailored services that meet
+            their unique needs.
           </p>
           <p className="intro">
-            <b>About Our DBA – SBC Digital:</b>
+            <b>About AMON TRADE LLC:</b>
             <br />
-            We are proud to announce that SBBC Health LLC now operates under the
-            trade name SBC Digital to better reflect our focus on digital
-            marketing and consulting services. Although our legal name remains
-            SBBC Health LLC, all services and communications will be conducted
-            under the SBC Digital name. This transition streamlines our brand
-            identity, providing a cohesive experience for our clients.
+            At AMON TRADE LLC, we pride ourselves on being a reliable and
+            forward-thinking company. Our services encompass strategic
+            consulting, efficient trade solutions, and expert guidance designed
+            to optimize business performance. As a company that values trust and
+            transparency, we are committed to delivering results that exceed
+            expectations.
             <br />
             <br />
-            For legal and contractual purposes, please note that SBC Digital is
-            a DBA of SBBC Health LLC.
+            With a foundation built on excellence, AMON TRADE LLC continues to
+            evolve to meet the dynamic demands of the market, ensuring the
+            highest standards of service for our clients.
           </p>
         </div>
       </div>

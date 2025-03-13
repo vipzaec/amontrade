@@ -83,7 +83,8 @@
 .fieldsM {
   display: flex;
   flex-wrap: nowrap;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 10%;
 
   @media (max-width: 769px) {
     display: flex;
@@ -161,6 +162,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
 }
 
 .service-item {

@@ -9,7 +9,6 @@ const Section8: React.FC = () => {
           <div className="col-xl-6 col-lg-6 p-[3rem]">
             <div className="contact-info">
               <h1 className="contact-header">Contact Us</h1>
-
               <div className="contact-details">
                 <div className="contacts">
                   <p className="contact-description">
@@ -17,15 +16,17 @@ const Section8: React.FC = () => {
                     consultation requests, or any information you may need.
                   </p>
                   <div>
-                    <b>SBC Digital (a DBA of SBBC Health LLC)</b>
+                    <b>
+                      AMON TRADE LLC{" "}
+                      <a href="mailto:OSHF23@gmail.com" className="email-link">
+                        OSHF23@gmail.com
+                      </a>
+                    </b>
                   </div>
-                  <div>571 S Washington, Afton, WY, 83110</div>
-                  <div>Phone: (331) 249-3543</div>
-                  <div className="contact-email">
-                    <a href="mailto:welcome@sbc-digital.com">
-                      welcome@sbc-digital.com
-                    </a>
-                  </div>
+                  <div>TEL: +13058137003 </div>
+                  <div>Mailing address: 7901 4th St N, STE 300</div>
+                  <div>Address: St Petersburg, FL 33702, Pinellas, FL</div>
+                  <div>OLEKSANDR ZAITSEV</div>
                 </div>
               </div>
             </div>

@@ -74,3 +74,13 @@
     max-width: 100%;
   }
 }
+
+
+.email-link {
+  color: #007bff; /* Standard link-blue color */
+  text-decoration: underline;
+
+  &:hover {
+    color: #0056b3; /* Darker blue for hover effect */
+  }
+}

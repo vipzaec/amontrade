@@ -22,7 +22,7 @@ const Section5: React.FC = () => {
                 <i className="fa-solid fa-microchip team-icon"></i>
               </div>
               <div className="icon-details">
-                <h3 className="headerText5">Advanced Tech</h3>
+                <h3 className="headerText5">Cutting-Edge Technology</h3>
                 <p className="card-intro">
                   Harness the latest tools and secure data systems for a
                   competitive edge in the market.
@@ -36,7 +36,7 @@ const Section5: React.FC = () => {
                 <i className="fa-solid fa-rectangle-ad team-icon"></i>
               </div>
               <div className="icon-details">
-                <h3 className="headerText5">Media Buying Mastery</h3>
+                <h3 className="headerText5">Expert Media Buying</h3>
                 <p className="card-intro">
                   Our data-driven strategies secure prime advertising spaces,
                   boosting traffic and performance.
@@ -50,7 +50,7 @@ const Section5: React.FC = () => {
                 <i className="fa-solid fa-lightbulb team-icon"></i>
               </div>
               <div className="icon-details">
-                <h3 className="headerText5">Creative Prowess</h3>
+                <h3 className="headerText5">Imaginative Skill</h3>
                 <p className="card-intro">
                   Our talented team creates visually stunning campaigns that
                   engage and build brand loyalty.
@@ -64,7 +64,7 @@ const Section5: React.FC = () => {
                 <FontAwesomeIcon icon={faPeopleGroup} className="team-icon" />
               </div>
               <div className="icon-details">
-                <h3 className="headerText5">Collaborative Synergy</h3>
+                <h3 className="headerText5">Collective Strength</h3>
                 <p className="card-intro">
                   Our team works hand-in-hand to ensure smooth collaboration and
                   exceptional campaign results.

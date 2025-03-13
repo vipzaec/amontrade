@@ -63,7 +63,7 @@ const Header: React.FC = () => {
 
         {/* Right Side: Contact Me button */}
         <a
-          href="mailto:example@gmail.com"
+          href="mailto:OSHF23@gmail.com"
           className="contact-button text-nowrap"
         >
           Get a Quote

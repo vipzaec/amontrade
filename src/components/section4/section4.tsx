@@ -2,7 +2,6 @@ import React from "react";
 
 import mf1 from "../../assets/img/mf1.png";
 import mf2 from "../../assets/img/mf2.png";
-import mf3 from "../../assets/img/mf2.png";
 import "./section4.scss"; // Import the SCSS file
 
 const Section4: React.FC = () => {
@@ -17,7 +16,7 @@ const Section4: React.FC = () => {
               <div className="bimg">
                 <img src={mf1} alt="Tech Development" />
               </div>
-              <h2 className="h4">Tech Development</h2>
+              <h2 className="h4">Technology Solutions</h2>
               <p className="text-muted">
                 We offer unique tech solutions that allow seamless management of
                 complex data in one click, using advanced technologies that set
@@ -32,16 +31,16 @@ const Section4: React.FC = () => {
               <div className="bimg">
                 <img src={mf2} alt="Media buying" />
               </div>
-              <h2 className="h4">Media buying</h2>
+              <h2 className="h4">Advertising Procurement</h2>
               <p className="text-muted">
-                With a team of 80+ skilled media buyers, we manage large budgets
-                to acquire quality leads on social and native networks daily.
+                With a team of skilled media buyers, we manage large budgets to
+                acquire quality leads on social and native networks daily.
               </p>
             </div>
           </div>
 
           {/* Field Item 3 */}
-          <div className="card-item field-item">
+          {/* <div className="card-item field-item">
             <div className="card-body">
               <div className="bimg">
                 <img src={mf3} alt="Creative agency" />
@@ -54,7 +53,7 @@ const Section4: React.FC = () => {
                 high-quality content.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -75,7 +74,7 @@ const Section4: React.FC = () => {
               <div className="service-icon bg-primary">
                 <i className="fa-solid fa-magnifying-glass-dollar"></i>
               </div>
-              <h2 className="h4">Search Traffic Services</h2>
+              <h2 className="h4">Digital Audience Growth</h2>
               <p className="text-muted">
                 We optimize your online presence through advanced search engine
                 strategies, ensuring maximum visibility, attracting quality
@@ -90,24 +89,10 @@ const Section4: React.FC = () => {
               <div className="service-icon bg-primary">
                 <i className="fa-solid fa-bullseye"></i>
               </div>
-              <h2 className="h4">Digital Marketing</h2>
+              <h2 className="h4">Online Advertising Solutions</h2>
               <p className="text-muted">
                 From social media to PPC campaigns, our team offers a full range
                 of services to promote your brand across all digital platforms.
-              </p>
-            </div>
-          </div>
-
-          {/* Service Item 3 */}
-          <div className="card-item service-item">
-            <div className="card-body">
-              <div className="service-icon bg-primary">
-                <i className="fa-solid fa-globe"></i>
-              </div>
-              <h2 className="h4">Global Approach</h2>
-              <p className="text-muted">
-                Expand into new markets globally with tailored marketing
-                solutions that connect you with an international audience.
               </p>
             </div>
           </div>
@@ -118,7 +103,7 @@ const Section4: React.FC = () => {
               <div className="service-icon bg-primary">
                 <i className="fa-solid fa-chart-pie"></i>
               </div>
-              <h2 className="h4">Data Analytics</h2>
+              <h2 className="h4">Business Intelligence Analysis</h2>
               <p className="text-muted">
                 Leverage data-driven insights to fine-tune strategies,
                 understand customer behaviors, and make informed decisions for
