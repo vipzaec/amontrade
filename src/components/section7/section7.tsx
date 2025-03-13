@@ -1,6 +1,6 @@
 import React from "react";
 import "./section7.scss";
-import aboutus from "../../assets/img/about-us.png";
+import aboutus from "../../assets/img/105723.jpg";
 
 const Section7: React.FC = () => {
   return (

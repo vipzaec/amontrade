@@ -47,13 +47,13 @@
   .about-us-image {
     margin-bottom: 1rem;
     max-width: 50%;
-
+    max-height: 80%;
     img {
       border-radius: 0.75rem;
       max-width: 100%;
       height: auto;
-      max-height: 550px;
 
+      max-height: 20rem;
       @media (max-width: 1024px) {
         max-height: 700px;
       }

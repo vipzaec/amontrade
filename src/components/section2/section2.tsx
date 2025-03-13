@@ -1,6 +1,6 @@
 import React from "react";
 import "./section2.scss"; // Import the SCSS file
-import ill from "../../assets/img/ill1.svg";
+import ill from "../../assets/img/11667588_20945445.jpg";
 
 const Section2: React.FC = () => {
   return (

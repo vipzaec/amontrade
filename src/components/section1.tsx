@@ -1,6 +1,6 @@
 import React from "react";
 import "./section1.scss"; // Import the SCSS file
-import MyIcon from "../assets/img/hero1";
+import MyIcon from "../assets/img/—Pngtree—digital marketing business symbols illustrated_17624815.png";
 
 const Section1: React.FC = () => {
   return (
@@ -27,7 +27,7 @@ const Section1: React.FC = () => {
 
         {/* Right Side Image */}
         <div className="right-image">
-          <MyIcon />
+          <img src={MyIcon} />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
-import mf1 from "../../assets/img/mf1.png";
-import mf2 from "../../assets/img/mf2.png";
+import mf1 from "../../assets/img/20945186.jpg";
+import mf2 from "../../assets/img/11669682_20943871.jpg";
 import "./section4.scss"; // Import the SCSS file
 
 const Section4: React.FC = () => {

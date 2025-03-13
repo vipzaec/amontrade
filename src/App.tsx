@@ -8,6 +8,7 @@ import Section6 from "./components/section6/section6";
 import Section7 from "./components/section7/section7";
 import Section8 from "./components/section8/section8";
 import Footer from "./components/footer/footer";
+import Products from "./components/products/products";
 
 function App() {
   // Create refs for scrolling to sections
@@ -27,6 +28,7 @@ function App() {
 
         <Section2 />
         {/* <Section3 /> */}
+        <Products />
         <Section4 />
         <Section5 />
         <Section6 />
