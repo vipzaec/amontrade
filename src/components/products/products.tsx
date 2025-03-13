@@ -4,7 +4,7 @@ import product1 from "../../assets/img/product2.webp";
 import product2 from "../../assets/img/product1.webp";
 import product3 from "../../assets/img/product3.webp";
 
-import "./Products.scss"; // Import the SCSS file
+import "./products.scss"; // Import the SCSS file
 
 const Products: React.FC = () => {
   return (
