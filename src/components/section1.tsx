@@ -19,7 +19,7 @@ const Section1: React.FC = () => {
           </p>
 
           <div className="contact-us-wrapper">
-            <a href="#" className="btn-primary">
+            <a href="mailto:OSHF23@gmail.com" className="btn-primary">
               Contact Us
             </a>
           </div>
