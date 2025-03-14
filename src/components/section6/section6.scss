@@ -11,6 +11,8 @@
   }
 
   .row {
+    background-color: white !important;
+
     width: 1320px;
     &.gy-4 {
       gap: 1.5rem;
@@ -86,6 +88,8 @@
   }
 
   .row-cols-sm-5 {
+    background-color: white;
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
