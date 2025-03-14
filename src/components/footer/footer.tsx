@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/img/logo.png"; // Import the logo
-import man from "../../assets/img/man.jpg"; // Import the logo
 
 const Footer: React.FC = () => {
   return (
@@ -18,9 +17,6 @@ const Footer: React.FC = () => {
                 a leading provider of digital marketing and search traffic
                 services, we pride ourselves on delivering unparalleled results.
               </p>
-            </div>
-            <div>
-              <img src={man}></img>
             </div>
           </div>
 
