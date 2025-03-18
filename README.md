@@ -3,5 +3,5 @@
 
 To run
 
-``` npm i 
+```npm i 
 ```npm run dev
