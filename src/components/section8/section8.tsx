@@ -23,10 +23,10 @@ const Section8: React.FC = () => {
                       </a>
                     </b>
                   </div>
-                  <div>TEL: +13058137003 </div>
-                  <div>Mailing address: 7901 4th St N, STE 300</div>
-                  <div>Address: St Petersburg, FL 33702, Pinellas, FL</div>
-                  <div>OLEKSANDR ZAITSEV</div>
+                  <div className="contact-description">TEL: +13058137003 </div>
+                  <div className="contact-description">Mailing address: 7901 4th St N, STE 300</div>
+                  <div className="contact-description">Address: St Petersburg, FL 33702, Pinellas, FL</div>
+                  <div className="contact-description">OLEKSANDR ZAITSEV</div>
                 </div>
               </div>
             </div>
